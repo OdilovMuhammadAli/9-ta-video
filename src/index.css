@@ -38,7 +38,7 @@ main {
 }
 
 .active {
-  color: orangered;
+  color: rgba(255, 0, 162, 0.612);
 }
 
 .container {
@@ -104,7 +104,7 @@ header nav {
 }
 
 .card-container__btn:hover {
-  color: red;
+  color: rgba(255, 0, 162, 0.612);
 }
 
 .card-container__price {
@@ -112,7 +112,7 @@ header nav {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #e2e1e100;
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 5px;
@@ -152,12 +152,12 @@ header nav {
 }
 
 .card__btn:hover .icon {
-  color: #ffffff;
+  color: #dcdcdc;
 }
 
 .card__btn:hover {
-  background-color: #e89300;
-  color: #ffffff;
+  background-color: rgba(255, 0, 162, 0.612);
+  color: #fffdfd;
 }
 
 .card__btn__amount {
@@ -173,14 +173,14 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #e89300;
+  border: 1px solid rgba(255, 0, 162, 0.612);
   padding: 5px;
   height: 20px;
   width: 20px;
 }
 
 .card__btn__amount:hover {
-  background-color: #e89300;
+  background-color: rgba(255, 0, 162, 0.612);
   color: #ffffff;
 }
 
@@ -207,7 +207,7 @@ header nav {
   font-size: 15px;
   right: -10px;
   top: -10px;
-  background-color: rgba(255, 166, 0, 0.612);
+  background-color: rgba(255, 0, 162, 0.612);
   color: #ffffff;
   width: 15px;
   height: 15px;
@@ -268,7 +268,7 @@ header nav {
 .hidden-card__clear-btn {
   background-color: transparent;
   cursor: pointer;
-  border: 1px solid #e89300;
+  border: 1px solid #000000;
   padding: 5px;
   width: 100%;
   text-align: center;
@@ -278,7 +278,7 @@ header nav {
 }
 
 .hidden-card__clear-btn:hover {
-  background-color: #e89300;
+  background-color: rgba(255, 0, 162, 0.612);
   color: #ffffff;
 }
 
